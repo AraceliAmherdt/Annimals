@@ -1,8 +1,0 @@
-public class Canine extends Mammal {
-    public Canine(String Species, String Feeding, String Name){
-        this.Species = Species;
-        this.Feeding = Feeding;
-        this.Name = Name;
-        this.Raze = Raze;
-    }
-}

@@ -20,8 +20,8 @@ public abstract class Mammal {  //Nombre de la clase Padre
 
         //Funcionaria como una base de datos, quisiera ponerle un if de que si no se encuentra le aparezca otro cartel
         
-    Canine Perro1 = new Canine("Canine","Omnivore","Lolo");
-    Canine Perro2 = new Canine("Canine","Omnivore","Pepe");
+    Canine Perro1 = new Canine("Canine","Omnivore","Lolo", "Dalmata");
+    Canine Perro2 = new Canine("Canine","Omnivore","Pepe", "Pastor Aleman");
 
 
 

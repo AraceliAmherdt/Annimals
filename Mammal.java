@@ -5,7 +5,7 @@ public abstract class Mammal {  //Nombre de la clase Padre
     public String species;
     public String feeding;
     public String name;
-    public String raze;
+    public String breed;
 
 
     //Constructor clase Padre

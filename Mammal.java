@@ -2,10 +2,10 @@ import java.util.Scanner;
 public abstract class Mammal {  //Nombre de la clase Padre
 
     //Atributos de la clase Padre
-    public String Species;
-    public String Feeding;
-    public String Name;
-    public String Raze;
+    public String species;
+    public String feeding;
+    public String name;
+    public String raze;
 
 
     //Constructor clase Padre
@@ -16,7 +16,7 @@ public abstract class Mammal {  //Nombre de la clase Padre
 
         Scanner orderDog = new Scanner(System.in);
         System.out.println("¿Cuál es el nombre del perro al que busca?");
-        String Client = orderDog.next();
+        String client = orderDog.next();
 
         //Funcionaria como una base de datos, quisiera ponerle un if de que si no se encuentra le aparezca otro cartel
         
@@ -25,7 +25,7 @@ public abstract class Mammal {  //Nombre de la clase Padre
 
 
 
-    System.out.println("Excelente, " + Client + " será entregado en 5 minutos");
+    System.out.println("Excelente, " + client + " será entregado en 5 minutos");
 
             }
         }
